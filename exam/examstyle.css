@@ -1,0 +1,130 @@
+
+body{
+
+    font-family: 'Poppins'
+}
+
+
+    
+
+.container{
+    margin: 0 auto;
+    max-width: 1728px;
+}
+
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+.row-1{
+    display: flex;
+}
+.pad{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    color: black;
+}
+.tap{
+    display: flex;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 23px;
+}
+.hero-item{
+    justify-content: space-between;
+    display: flex;
+}
+.pad li {
+    list-style: none;
+    padding: 0 30px;
+   
+}
+.pad li a{
+    color: black;
+    font-size: 16px;
+}
+.hero{
+    align-self: center;
+}
+.vip{
+    position: relative;
+
+}
+.item{
+    position: absolute;
+    
+    top: 30%;
+    right: 60%;
+}
+.col-2{
+    width: calc(100%/2);
+}
+.home{
+    position: absolute;
+    color: white;
+    top: 1%;
+    right: 86%;
+}
+.card{
+    position: absolute;
+    color: white;
+    top: 1%;
+    right: 2%;
+}
+.col-4{
+    width: calc(100%/4);
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+.vibe{
+    background-color: rgb(43, 0, 128);
+}
+.nice{
+    background-color: rgb(244, 244, 246);
+}
+.help{
+    position: absolute;
+    color:black;
+    top: 80%;
+    right: 40%;
+   
+
+}
+.help h2{ text-align: center;
+
+}
+.type{
+    position: absolute;
+    color:white;
+    top:80%;
+    right:40% ;
+    text-align: c;
+}
+.mood{
+    border-top: 1px solid rgb(198, 196, 196);
+}
+.jeep {
+    padding: 50px 0;
+}
+.jeep img{
+    padding: 0 10px;
+    
+}
+.just{
+    padding: 0 40px;
+    color: gray;
+}
